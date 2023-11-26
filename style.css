@@ -1,0 +1,48 @@
+body{ /* remoção das margens e pordas padrão */
+    margin: 0px; /* Margem Externa */
+    padding: 0px; /* Margem Interna */
+}
+
+#principal{ /* menu principal de navegação */
+    width: 100%; /* Largura */
+    height: 100px; /* Altura */
+    border: 1px solid black; /* Borda */
+    background-color: #303030; /* Cor de fundo */
+    display: flex; /* exibição flexivel */
+    justify-content: space-around; /* espaço ao redor dos conteúdos */
+    align-items: center; /* alinhamento */
+    border: 1px solid #BABABA; /* borda do menu superior */
+    margin-bottom: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030; /* margem inferior */
+}
+    #principal div a{ /* alterações na tag a */
+        color: #FFF; /* cor da fonte */
+        font-family: Inter; /* fonte */
+        font-size: 25px; /* tamanho da fonte */
+        line-height: normal; /* alinhamento superior */
+        text-decoration: none; /* remoção da linha inferior dos links */
+    }
+    #principal div a:hover{ /* transição da tag a */
+        color: #cccccc; /* transição de cor da tag a */
+    }
+        #menu{ /* div menu */
+        display: flex; /* exibição flexivel */
+        width: 55%; /* porcentagem usada para uso */
+        justify-content: space-around; /* espaço ao redor dos conteúdos */
+        align-items: center; /* alinhamento */
+        margin-left: 3%; /* margem direita */
+        }
+    #principal button{ /* botão do menu de navegação */
+        margin-right: 5%; /* margem esquerda */
+        border: 0px; /* sem borda 0px */
+        background: #0C70F2; /* cor fundo */
+        box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25); /* sombra do botão */
+        color: #FFF; /* cor da fonte do botão */
+        font-family: Inter; /* fonte botão */
+        font-size: 20px; /* tamanho da fonte */              
+        width: 80px; /* largura */
+        height: 39px; /* altura */
+        cursor: pointer; /* ponteiro do mouse */
+    }
+    #principal button:hover{ /* transição do botão */
+        color: #cccccc; /* transição de cor do botão */
+    }

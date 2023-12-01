@@ -1,3 +1,4 @@
+/*  (var) */
 :root{
     --azul-dnc: #0C70F2;
     --preto-dnc: #303030;
@@ -57,7 +58,7 @@ body{ /* remoção das margens e pordas padrão */
         color: var(--cinza-hover); /* transição de cor do botão */
     }
 
-    /* seção principal do site */
+/* seção principal do site (header) */
     section{
         display: flex;
         flex-direction: column;
@@ -87,4 +88,60 @@ body{ /* remoção das margens e pordas padrão */
             background-color: black;
             font-weight: bold;
             padding: 5px;
+        }
+
+/* formulário (form) */
+        form{
+            color: white;
+            font-family: var(--fonte-padrao);
+            font-size: 30px;
+            font-weight: 600;    
+            width: 600px;
+            
+            
+        }       
+        .formGroup{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        form input{
+            border-radius: 10px;
+            height: 30px;
+            border: 0px;
+            font-size: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.90);
+        }
+        form label{
+            margin: 10px 0px 10px 0px;          
+        }
+        form input::placeholder{
+            color: rgba(57, 57, 57, 0.50);
+        }
+        .checkBoxItens label{
+            font-size: 25px;
+            padding: 10px;
+
+        }
+        .checkBoxItens{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        input[type="checkBox"]{
+            transform: scale(1.5);
+        }
+        input[type="submit"]{
+            background-color: var(--azul-dnc);
+            width: 100%;
+            height: 56px;
+            font-size: 32px;
+            color: white;
+            margin-top: 100px;
+            box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25); 
+            /* deslocamento oriz.→, vert ↑., esfumaçado, cor sombra  */
+            cursor: pointer;
+
         }

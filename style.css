@@ -291,41 +291,22 @@ body{ /* remoção das margens e pordas padrão */
             font-size: 17px;
 
         }
-        .checkBoxItens{
-            
-        }
-       
+
+
     /* footer */  
       footer{
        
       }
 
       footer .linha1{
-        
+        flex-direction: column;
       }
 
-      footer ul{
-        
-      }
-
-      footer nav{
-        
-      }
-
-      footer h5{
-        
-      }
-
-      footer ul li{
-        
-      }
-
-      footer ul li a{
-        
-      }
 
       footer .enfereco{
-        
+        width: 90%;
+        font-size: 15px;
+        margin-bottom: 20px;
       }
 
       footer .linha2{
@@ -333,7 +314,7 @@ body{ /* remoção das margens e pordas padrão */
       }
 
       footer .linha2 a{
-        
+        font-size: 15px;
       }
 
       footer .linha2 a:first-child{
